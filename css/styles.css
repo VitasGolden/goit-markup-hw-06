@@ -461,7 +461,7 @@ h6 {
 
 @media screen and (min-width: 1158px) {
 	.banner {
-		max-width: 1158px;
+		max-width: 1140px;
 		padding: 188px 0;
 	}
 
@@ -679,10 +679,15 @@ h6 {
 		0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
+.card-item,
+.portfolio-item {
+	width: 100%;
+}
+
 .portfolio-item img {
 	display: block;
 	max-width: 100%;
-	max-height: 280px;
+	max-height: 300px;
 	object-fit: cover;
 }
 
@@ -722,10 +727,6 @@ h6 {
 	.portfolio-item {
 		width: calc((100% - 48px) / 2);
 	}
-
-	.portfolio-item img {
-		max-height: 300px;
-	}
 }
 
 @media screen and (min-width: 1158px) {
@@ -745,7 +746,6 @@ h6 {
 
 	.portfolio-item img {
 		display: block;
-		max-height: 300px;
 	}
 
 	.portfolio-item-box {
