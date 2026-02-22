@@ -568,8 +568,8 @@ h6 {
 	border-radius: 4px;
 	padding: 72px 24px 24px 24px;
 
-	width: 408px;
-	min-height: 584px;
+	width: 288px;
+	min-height: 263px;
 
 	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
