@@ -266,7 +266,7 @@ h6 {
 }
 
 .mobile-menu-container {
-	display: relative;
+	position: relative;
 	padding-top: 72px;
 	padding-bottom: 40px;
 
@@ -397,6 +397,16 @@ h6 {
 	padding: 72px 0;
 }
 
+@media screen and (min-device-pixel-ratio: 2),
+	screen and (min-resolution: 192dpi),
+	screen and (min-resolution: 2dppx) {
+	.banner {
+		background-image:
+			linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+			url('../images/Hero-background@2x.jpg');
+	}
+}
+
 .banner-title {
 	font-weight: 700;
 	font-size: 36px;
@@ -443,7 +453,7 @@ h6 {
 		font-size: 56px;
 		line-height: calc(60px / 56px);
 		max-width: 496px;
-		margin-bottom: 36x;
+		margin-bottom: 36px;
 	}
 }
 
